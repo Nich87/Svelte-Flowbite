@@ -44,5 +44,8 @@
 		"vite": "^4.4.9",
 		"vitest": "^0.34.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/adapter-cloudflare": "^2.3.3"
+	}
 }
