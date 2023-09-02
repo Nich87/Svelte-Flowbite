@@ -1,10 +1,21 @@
 {
-	"name": "svelte-flowbite",
+	"name": "stela",
 	"version": "0.0.1",
 	"engines": {
 		"node": ">=18.x"
 	},
-	"private": true,
+	"author": {
+		"name": "ysr9029"
+	},
+	"license":"MIT",
+	"repository": {
+		"url": "https://github.com/Nich87/Svelte-Flowbite/"
+	},
+	"bugs": {
+		"email": "contact@voidhacker.com",
+		"url": "https://voidhacker.com"
+	},
+	"private": false,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
