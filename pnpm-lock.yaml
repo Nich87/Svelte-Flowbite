@@ -6,7 +6,7 @@ settings:
 
 devDependencies:
   '@playwright/test':
-    specifier: ^1.37.1
+    specifier: ^1.38.1
     version: 1.38.1
   '@sveltejs/adapter-auto':
     specifier: ^2.1.0
@@ -27,37 +27,37 @@ devDependencies:
     specifier: 3.0.3
     version: 3.0.3(@sveltejs/kit@1.25.1)
   '@sveltejs/kit':
-    specifier: ^1.24.0
+    specifier: ^1.25.1
     version: 1.25.1(svelte@4.2.1)(vite@4.4.9)
   '@trivago/prettier-plugin-sort-imports':
     specifier: ^4.2.0
     version: 4.2.0(prettier@3.0.3)
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.5.0
+    specifier: ^6.7.3
     version: 6.7.3(@typescript-eslint/parser@6.7.3)(eslint@8.50.0)(typescript@5.2.2)
   '@typescript-eslint/parser':
-    specifier: ^6.5.0
+    specifier: ^6.7.3
     version: 6.7.3(eslint@8.50.0)(typescript@5.2.2)
   autoprefixer:
-    specifier: ^10.4.15
+    specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.31)
   eslint:
-    specifier: ^8.48.0
+    specifier: ^8.50.0
     version: 8.50.0
   eslint-config-prettier:
     specifier: ^9.0.0
     version: 9.0.0(eslint@8.50.0)
   eslint-plugin-svelte:
-    specifier: ^2.33.0
+    specifier: ^2.33.2
     version: 2.33.2(eslint@8.50.0)(svelte@4.2.1)
   flowbite-svelte:
-    specifier: ^0.44.4
-    version: 0.44.17(svelte@4.2.1)
+    specifier: ^0.44.18
+    version: 0.44.18(svelte@4.2.1)
   flowbite-svelte-icons:
-    specifier: ^0.4.3
+    specifier: ^0.4.4
     version: 0.4.4(svelte@4.2.1)(tailwind-merge@1.14.0)(tailwindcss@3.3.3)
   postcss:
-    specifier: ^8.4.29
+    specifier: ^8.4.31
     version: 8.4.31
   postcss-load-config:
     specifier: ^4.0.1
@@ -72,10 +72,10 @@ devDependencies:
     specifier: ^0.5.4
     version: 0.5.4(@trivago/prettier-plugin-sort-imports@4.2.0)(prettier-plugin-svelte@3.0.3)(prettier@3.0.3)
   svelte:
-    specifier: ^4.2.0
+    specifier: ^4.2.1
     version: 4.2.1
   svelte-check:
-    specifier: ^3.5.1
+    specifier: ^3.5.2
     version: 3.5.2(postcss-load-config@4.0.1)(postcss@8.4.31)(svelte@4.2.1)
   svelte-preprocess:
     specifier: ^5.0.4
@@ -93,7 +93,7 @@ devDependencies:
     specifier: ^4.4.9
     version: 4.4.9(@types/node@20.8.0)
   vitest:
-    specifier: ^0.34.3
+    specifier: ^0.34.6
     version: 0.34.6
 
 packages:
@@ -1785,8 +1785,8 @@ packages:
       tailwindcss: 3.3.3
     dev: true
 
-  /flowbite-svelte@0.44.17(svelte@4.2.1):
-    resolution: {integrity: sha512-Ig7K/obOQ/6uwR2zkg0NT4u5dvcqAXcM0ZkMWVGBkfCD5refnvGsS2q6lflefN+cFxXaDi9J/Rorgp6KwP9JPw==}
+  /flowbite-svelte@0.44.18(svelte@4.2.1):
+    resolution: {integrity: sha512-vCRuzO4Ltz+8qyYP1b8yZPre4fWeRnVwg7C8uQ3a6UgLPruPAACCbqO+i/RkzD7CFU7ygziee9OfPgVoMr8aWA==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
     peerDependencies:
       svelte: ^4.0.0
