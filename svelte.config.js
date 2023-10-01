@@ -1,8 +1,8 @@
+import adapterCloudflare from '@sveltejs/adapter-cloudflare';
+import adapterNetlify from '@sveltejs/adapter-netlify';
 import adapterNode from '@sveltejs/adapter-node';
 import adapterStatic from '@sveltejs/adapter-static';
 import adapterVercel from '@sveltejs/adapter-vercel';
-import adapterNetlify from '@sveltejs/adapter-netlify';
-import adapterCloudflare from '@sveltejs/adapter-cloudflare';
 import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
