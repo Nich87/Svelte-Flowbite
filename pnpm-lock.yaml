@@ -30,8 +30,8 @@ devDependencies:
     specifier: ^1.27.4
     version: 1.27.4(svelte@4.2.2)(vite@4.5.0)
   '@trivago/prettier-plugin-sort-imports':
-    specifier: ^4.2.1
-    version: 4.2.1(prettier@3.0.3)
+    specifier: ^4.3.0
+    version: 4.3.0(prettier@3.0.3)
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.9.0
     version: 6.9.0(@typescript-eslint/parser@6.8.0)(eslint@8.51.0)(typescript@5.2.2)
@@ -70,7 +70,7 @@ devDependencies:
     version: 3.0.3(prettier@3.0.3)(svelte@4.2.2)
   prettier-plugin-tailwindcss:
     specifier: ^0.5.6
-    version: 0.5.6(@trivago/prettier-plugin-sort-imports@4.2.1)(prettier-plugin-svelte@3.0.3)(prettier@3.0.3)
+    version: 0.5.6(@trivago/prettier-plugin-sort-imports@4.3.0)(prettier-plugin-svelte@3.0.3)(prettier@3.0.3)
   svelte:
     specifier: ^4.2.2
     version: 4.2.2
@@ -822,8 +822,8 @@ packages:
       - supports-color
     dev: true
 
-  /@trivago/prettier-plugin-sort-imports@4.2.1(prettier@3.0.3):
-    resolution: {integrity: sha512-iuy2MPVURGdxILTchHr15VAioItuYBejKfcTmQFlxIuqA7jeaT6ngr5aUIG6S6U096d6a6lJCgaOwlRrPLlOPg==}
+  /@trivago/prettier-plugin-sort-imports@4.3.0(prettier@3.0.3):
+    resolution: {integrity: sha512-r3n0onD3BTOVUNPhR4lhVK4/pABGpbA7bW3eumZnYdKaHkf1qEC+Mag6DPbGNuuh0eG8AaYj+YqmVHSiGslaTQ==}
     peerDependencies:
       '@vue/compiler-sfc': 3.x
       prettier: 2.x - 3.x
@@ -2678,7 +2678,7 @@ packages:
       svelte: 4.2.2
     dev: true
 
-  /prettier-plugin-tailwindcss@0.5.6(@trivago/prettier-plugin-sort-imports@4.2.1)(prettier-plugin-svelte@3.0.3)(prettier@3.0.3):
+  /prettier-plugin-tailwindcss@0.5.6(@trivago/prettier-plugin-sort-imports@4.3.0)(prettier-plugin-svelte@3.0.3)(prettier@3.0.3):
     resolution: {integrity: sha512-2Xgb+GQlkPAUCFi3sV+NOYcSI5XgduvDBL2Zt/hwJudeKXkyvRS65c38SB0yb9UB40+1rL83I6m0RtlOQ8eHdg==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
@@ -2730,7 +2730,7 @@ packages:
       prettier-plugin-twig-melody:
         optional: true
     dependencies:
-      '@trivago/prettier-plugin-sort-imports': 4.2.1(prettier@3.0.3)
+      '@trivago/prettier-plugin-sort-imports': 4.3.0(prettier@3.0.3)
       prettier: 3.0.3
       prettier-plugin-svelte: 3.0.3(prettier@3.0.3)(svelte@4.2.2)
     dev: true
